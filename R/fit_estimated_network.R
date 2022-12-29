@@ -1,3 +1,6 @@
+#' Fit estimated epidemic network using autotracer algorithm
+#' @param dat a data.frame containing the probable case candidates
+#' @returns a list
 fit_estimated_network <- function(dat){
 
     safe_estimate <- safely(autotracer::connect_probable_cases)
