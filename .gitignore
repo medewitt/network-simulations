@@ -1,3 +1,23 @@
+*~
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*-Ex.R
+/*.tar.gz
+/*.Rcheck/
+.Rproj.user/
+vignettes/*.html
+vignettes/*.pdf
+*_cache/
+/cache/
+*.utf8.md
+*.knit.md
+.Renviron
+stan/model.rds
+_targets
+index.html
+.Rproj.user
 # History files
 .Rhistory
 .Rapp.history
